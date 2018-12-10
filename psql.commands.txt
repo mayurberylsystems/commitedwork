@@ -27,7 +27,7 @@
 
 -like: for finding a pattern.it uses % and _. ex- where name like 'ma%' or 'm_y%.'
 
--alias- as is used to changing name of field in the output. ex- select cust_id as id from company.
+-alias('as')- as is used to changing name of field in the output. ex- select cust_id as id from company.
 
 -group by:The GROUP BY clause divides the rows returned from the SELECT statement into groups. For each group, you can apply an aggregate function e.g., SUM to calculate the sum of items or COUNT to get the number of items in the groups.
 
