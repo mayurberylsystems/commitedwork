@@ -1,1 +1,45 @@
-my rest concept
+Introduction To web services.
+
+The term web service is either a service offered by an electronic device to another electronic device, communicating with each other via the World Wide Web, or a web service implemented in the particular technology or brand, W3C Web Services.
+
+The Web technology such as HTTP—originally designed for human-to-machine communication—is utilized for machine-to-machine communication, more specifically for transferring machine-readable file formats such as XML and JSON.
+
+So a service provide or server and the client communicate by the use of WSDL and UDDI.
+WSDL-Web Service Description Language is an XML based interface used to describe the functionalities of web services.so tools and programming languages are used for WSDL for completing client server deal.
+
+WSDL files are stored in a registory or directory present online where consumer sends his query and searches for the web services is called UDDI i.e. Universal Description Discovery and Integration.
+
+There are 2 types of web services.
+1.SOAP
+2.REST
+
+SIMPLE OBJECT ACCESS PROTOCOL:
+
+The SOAP services are interfaced in XML format.
+Set of rules how web services and messages will be take place from server to client. 
+SOAP web service format consists of envelop, header(optional) and body.
+
+
+REpresentational State Transfer:
+
+It is an architectural style and has no strict principles/constraints like soap.
+
+REST architecture has;
+
+Uniform Interface: 
+Resources- you can define any information,module as resource.
+URI-data or modules are accessed by unform resource identifier
+HTTP methods- CRUD i.e.create,read,update,delete by using http methods like get,post,put,delete along with URI to access/modify resources.
+Every resource can be represented by html,xml or json.
+
+Stateless:the restful web services does not keep the client state or previous interaction state on the server.
+
+Cacheable:the response of the client is stored on the client side and the server uses client control and headers in order to complete the task
+
+Layered System: it can have multiple layes b/w client and server like proxies and gateways,
+		proxy server is uesd by client which simplifies and controls the complexities of a 			request.gateways are use by server for managing traffic etc. 
+
+Code On Demand(optional):ability to download and execute code on client side.
+
+
+
